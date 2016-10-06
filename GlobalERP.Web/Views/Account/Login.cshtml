@@ -1,0 +1,60 @@
+﻿@using Abp.Web.Mvc.Extensions
+@using Microsoft.Owin.Security
+@model GlobalERP.Web.Models.Account.LoginFormViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+@section Styles
+{
+    @Html.IncludeStyle("~/Views/Account/Login.css")
+}
+@section Scripts
+{
+    @Html.IncludeScript("~/Views/Account/Login.js")
+}
+<h3 class="form-title">Log in</h3>
+
+<div id="alertlogin" class="alert alert-danger display-hide">
+    <button class="close" data-close="alert"></button>
+    <span>
+        <i class="fa fa-warning"></i>
+        <span id="message">
+            Por favor ingrese usuario y password
+        </span>
+
+    </span>
+</div>  
+ <form id="LoginForm" class="form-horizontal" action="@(Url.Action("Login", "Account"))?returnUrl=@(Model.ReturnUrl)" method="POST">
+                    <fieldset>                     
+                                       
+
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" id="EmailAddressInput" placeholder="@L("UserNameOrEmail")" required maxlength="@GlobalERP.Users.User.MaxEmailAddressLength">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="password" class="form-control" id="PasswordInput" placeholder="@L("Password")" required maxlength="@GlobalERP.Users.User.MaxPlainPasswordLength">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" id="RememberMeInput">
+                                        <span class="ripple"></span>
+                                        <span class="check"></span> @L("RememberMe")
+                                    </label>
+                                    <a href="/Account/ForgotPassword" id="forget-password" class="forget-password">@L("Forgotpassword")</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input id="ReturnUrlHash" type="hidden" name="returnUrlHash" />
+
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <button id="LoginButton" type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> @L("LogIn")</button>                               
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+ 

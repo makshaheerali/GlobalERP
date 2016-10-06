@@ -1,0 +1,1081 @@
+DEBUG 2016-10-04 19:52:30,107 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 19:52:30,126 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 19:52:30,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,144 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,144 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,145 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,145 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:30,153 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 19:52:30,511 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 19:52:30,511 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 19:52:30,511 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 19:52:30,511 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 19:52:31,200 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 19:52:33,357 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 19:52:33,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 19:52:33,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 19:52:33,382 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 19:52:33,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 19:52:33,532 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 19:52:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 19:52:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 19:52:33,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 19:52:33,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 19:52:33,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 19:52:33,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 19:52:33,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 19:52:33,899 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 19:52:36,731 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 19:52:36,733 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 19:52:36,735 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 19:52:36,737 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 19:52:43,154 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+DEBUG 2016-10-04 19:53:10,619 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"90ae6fc8-a6dc-4597-af9a-8a398cd29941","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-10-04T19:53:10.611687-05:00","Properties":{}}
+DEBUG 2016-10-04 19:53:10,669 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 90ae6fc8-a6dc-4597-af9a-8a398cd29941
+WARN  2016-10-04 19:53:48,556 [7    ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   en Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:línea 94
+   en Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:línea 31
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.UserAppServiceProxy.CreateUser(CreateUserInput input)
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:línea 44
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.DynamicApiController`1Proxy_1.CreateUser(CreateUserInput input)
+   en lambda_method(Closure , Object , Object[] )
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   en System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:línea 40
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:línea 40
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:línea 30
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:línea 59
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:línea 55
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2016-10-04 19:53:48,628 [7    ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2016-10-04 19:53:48,629 [7    ] nHandling.AbpApiExceptionFilterAttribute - El campo Password es obligatorio. (Password)
+DEBUG 2016-10-04 19:54:41,130 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"565573e8-3019-4ffe-bc77-1daa803ec561","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:54:41.1297779-05:00","Properties":{}}
+DEBUG 2016-10-04 19:54:41,169 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 565573e8-3019-4ffe-bc77-1daa803ec561
+DEBUG 2016-10-04 19:55:05,649 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 90ae6fc8-a6dc-4597-af9a-8a398cd29941
+DEBUG 2016-10-04 19:55:06,393 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e0f058cf-4ecd-49d3-9442-d7c7eb3f750b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-10-04T19:55:06.3934909-05:00","Properties":{}}
+DEBUG 2016-10-04 19:55:06,404 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e0f058cf-4ecd-49d3-9442-d7c7eb3f750b
+DEBUG 2016-10-04 19:55:25,295 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7cbfd88b-b34e-44b2-ae5d-eecd1645fa50","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:55:25.2951633-05:00","Properties":{}}
+DEBUG 2016-10-04 19:55:25,329 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7cbfd88b-b34e-44b2-ae5d-eecd1645fa50
+DEBUG 2016-10-04 19:55:25,690 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 565573e8-3019-4ffe-bc77-1daa803ec561
+DEBUG 2016-10-04 19:55:50,706 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e0f058cf-4ecd-49d3-9442-d7c7eb3f750b
+DEBUG 2016-10-04 19:56:16,371 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7cbfd88b-b34e-44b2-ae5d-eecd1645fa50
+DEBUG 2016-10-04 19:56:17,588 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f0d8606a-a6f8-4d30-b9ad-5d04b7748f76","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:56:17.5809873-05:00","Properties":{}}
+DEBUG 2016-10-04 19:56:17,705 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f0d8606a-a6f8-4d30-b9ad-5d04b7748f76
+DEBUG 2016-10-04 19:56:20,722 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f0d8606a-a6f8-4d30-b9ad-5d04b7748f76
+DEBUG 2016-10-04 19:56:21,681 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5ecea925-b382-44bf-9066-0cb72f33de6b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:56:21.6811503-05:00","Properties":{}}
+DEBUG 2016-10-04 19:56:21,714 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5ecea925-b382-44bf-9066-0cb72f33de6b
+DEBUG 2016-10-04 19:56:27,092 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5ecea925-b382-44bf-9066-0cb72f33de6b
+DEBUG 2016-10-04 19:56:28,123 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0b424495-9243-43e5-8c77-0ead0a469dee","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:56:28.1227026-05:00","Properties":{}}
+DEBUG 2016-10-04 19:56:28,131 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0b424495-9243-43e5-8c77-0ead0a469dee
+DEBUG 2016-10-04 19:56:36,473 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0b424495-9243-43e5-8c77-0ead0a469dee
+DEBUG 2016-10-04 19:56:37,467 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"484c208f-d89b-405b-a106-c1e184588ce4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T19:56:37.4663526-05:00","Properties":{}}
+DEBUG 2016-10-04 19:56:37,486 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 484c208f-d89b-405b-a106-c1e184588ce4
+DEBUG 2016-10-04 20:08:21,331 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 484c208f-d89b-405b-a106-c1e184588ce4
+DEBUG 2016-10-04 20:15:11,661 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 20:15:11,677 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 20:15:11,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:11,691 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 20:15:11,963 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:15:11,963 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:15:11,963 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:15:11,963 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:15:12,568 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:15:14,681 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 20:15:14,690 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 20:15:14,757 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 20:15:14,759 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 20:15:14,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 20:15:14,936 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:15:15,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 20:15:15,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 20:15:15,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 20:15:17,884 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 20:15:17,886 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 20:15:17,887 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 20:15:17,888 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 20:15:23,193 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+DEBUG 2016-10-04 20:18:12,884 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-10-04 20:18:12,886 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:18:12,887 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:18:12,887 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-10-04 20:19:36,811 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 20:19:37,434 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 20:19:37,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:37,455 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 20:19:38,107 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:19:38,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:19:38,107 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:19:38,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:19:38,693 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:19:39,605 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 20:19:39,611 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 20:19:39,613 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 20:19:39,614 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 20:19:39,616 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 20:19:39,749 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:19:39,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 20:19:39,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 20:19:39,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 20:19:39,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 20:19:39,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 20:19:39,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 20:19:39,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 20:19:39,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 20:19:42,813 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 20:19:42,814 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 20:19:42,816 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 20:19:42,817 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-10-04 20:21:45,821 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 20:21:45,847 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 20:21:45,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:45,873 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 20:21:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:21:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:21:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:21:46,180 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:21:46,805 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:21:48,911 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 20:21:48,921 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 20:21:48,923 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 20:21:48,925 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 20:21:48,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 20:21:49,074 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:21:49,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 20:21:49,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 20:21:49,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 20:21:49,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 20:21:49,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 20:21:49,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 20:21:49,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 20:21:49,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 20:21:51,995 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 20:21:51,997 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 20:21:51,998 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 20:21:51,999 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 20:21:57,019 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+DEBUG 2016-10-04 20:23:17,452 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 20:23:17,484 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 20:23:17,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:17,501 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 20:23:17,775 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:23:17,775 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:23:17,775 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:23:17,775 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:23:18,315 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:23:20,455 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 20:23:20,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 20:23:20,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 20:23:20,469 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 20:23:20,471 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 20:23:20,594 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:23:20,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 20:23:20,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 20:23:20,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 20:23:20,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 20:23:20,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 20:23:20,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 20:23:20,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 20:23:20,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 20:23:23,475 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 20:23:23,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 20:23:23,481 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 20:23:23,484 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 20:23:28,652 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 27
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 42
+ERROR 2016-10-04 20:28:50,670 [6    ] balERP.Web.Controllers.AccountController - The "RenderSection" method has already been called for the section named "styles".
+System.Web.HttpException (0x80004005): The "RenderSection" method has already been called for the section named "styles".
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass7.<RenderSection>b__5(TextWriter tw)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at ASP._Page_Views_Shared__LayoutLogin_cshtml.Execute() in c:\Users\Teo\Downloads\GlobalERP\GlobalERP.Web\Views\Shared\_LayoutLogin.cshtml:line 32
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-10-04 20:35:11,704 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"64068ed8-8650-4456-99bb-1fed2fc2054e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-04T20:35:11.6944589-05:00","Properties":{}}
+DEBUG 2016-10-04 20:35:11,781 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 64068ed8-8650-4456-99bb-1fed2fc2054e
+DEBUG 2016-10-04 20:35:51,559 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 64068ed8-8650-4456-99bb-1fed2fc2054e
+WARN  2016-10-04 20:37:10,492 [32   ] balERP.Web.Controllers.AccountController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Halil\GitHub\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 94
+   at Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext) in D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Validation\AbpMvcValidationFilter.cs:line 35
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2016-10-04 20:37:10,493 [32   ] balERP.Web.Controllers.AccountController - There are 2 validation errors:
+WARN  2016-10-04 20:37:10,493 [32   ] balERP.Web.Controllers.AccountController - The UsernameOrEmailAddress field is required. (UsernameOrEmailAddress)
+WARN  2016-10-04 20:37:10,493 [32   ] balERP.Web.Controllers.AccountController - The Password field is required. (Password)
+DEBUG 2016-10-04 20:57:36,093 [17   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-10-04 20:57:36,095 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:57:36,095 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:57:36,095 [17   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-10-04 20:57:41,537 [13   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 20:57:42,267 [13   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 20:57:42,273 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,276 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,276 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,276 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,276 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,277 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,277 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,277 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,278 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,278 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,278 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,278 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,279 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,279 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,279 [13   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:42,282 [13   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 20:57:42,962 [13   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:57:42,962 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:57:42,962 [13   ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:57:42,962 [13   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 20:57:43,563 [13   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 20:57:44,366 [13   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 20:57:44,372 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 20:57:44,374 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 20:57:44,376 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 20:57:44,377 [13   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 20:57:44,504 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 20:57:44,689 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 20:57:44,689 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 20:57:44,694 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 20:57:44,695 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 20:57:44,695 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 20:57:44,695 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 20:57:44,695 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 20:57:44,695 [13   ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 20:57:47,245 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 20:57:47,247 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 20:57:47,248 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 20:57:47,249 [13   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 21:01:37,816 [12   ] Abp.Logging.LogHelper                    - Can not find 'Forgotpassword' in localization source 'GlobalERP'!
+WARN  2016-10-04 21:02:05,056 [31   ] Abp.Logging.LogHelper                    - Can not find 'Forgotpassword' in localization source 'GlobalERP'!
+DEBUG 2016-10-04 21:02:40,615 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-04 21:02:40,634 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-04 21:02:40,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:40,668 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-04 21:02:40,954 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 21:02:40,954 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 21:02:40,954 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 21:02:40,954 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-04 21:02:41,491 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-04 21:02:43,795 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-04 21:02:43,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-04 21:02:43,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-04 21:02:43,885 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-04 21:02:43,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-04 21:02:44,044 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-04 21:02:44,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-04 21:02:44,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-04 21:02:44,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-04 21:02:44,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-04 21:02:44,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-04 21:02:44,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-04 21:02:44,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-04 21:02:44,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-04 21:02:47,705 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-04 21:02:47,707 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-04 21:02:47,709 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-04 21:02:47,711 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-04 21:02:55,147 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+DEBUG 2016-10-05 22:38:11,152 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-05 22:38:11,193 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-05 22:38:11,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:11,226 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-05 22:38:11,770 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 22:38:11,770 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 22:38:11,770 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 22:38:11,770 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 22:38:12,480 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 22:38:16,510 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-05 22:38:16,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-05 22:38:16,544 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-05 22:38:16,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-05 22:38:16,548 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-05 22:38:16,714 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-05 22:38:17,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-05 22:38:17,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-05 22:38:17,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-05 22:38:17,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-05 22:38:17,090 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-05 22:38:17,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-05 22:38:17,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-05 22:38:17,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-05 22:38:20,147 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-05 22:38:20,150 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-05 22:38:20,153 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-05 22:38:20,155 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2016-10-05 22:39:10,779 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 42
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 100
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:línea 67
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:línea 27
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:línea 42
+DEBUG 2016-10-05 22:40:13,268 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"441c0a79-64ab-4de0-bfb5-1127daf988ef","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:40:13.2481712-05:00","Properties":{}}
+DEBUG 2016-10-05 22:40:13,439 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 441c0a79-64ab-4de0-bfb5-1127daf988ef
+DEBUG 2016-10-05 22:43:36,047 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 441c0a79-64ab-4de0-bfb5-1127daf988ef
+WARN  2016-10-05 22:43:40,588 [5    ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 22:43:41,910 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1f3947f8-18c5-4833-8ebd-c1465c5df2e0","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:43:41.9097327-05:00","Properties":{}}
+DEBUG 2016-10-05 22:43:41,940 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1f3947f8-18c5-4833-8ebd-c1465c5df2e0
+DEBUG 2016-10-05 22:55:53,106 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1f3947f8-18c5-4833-8ebd-c1465c5df2e0
+WARN  2016-10-05 22:55:57,479 [59   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 22:55:57,627 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"23781da2-51f1-41fe-9a2c-4bfafe2b5830","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:55:57.6175404-05:00","Properties":{}}
+DEBUG 2016-10-05 22:55:57,674 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 23781da2-51f1-41fe-9a2c-4bfafe2b5830
+DEBUG 2016-10-05 22:57:07,619 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 23781da2-51f1-41fe-9a2c-4bfafe2b5830
+WARN  2016-10-05 22:57:11,425 [56   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 22:57:11,796 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cf5eb5de-5ddf-4df3-8b62-ed00544eae1f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:57:11.7963489-05:00","Properties":{}}
+DEBUG 2016-10-05 22:57:11,808 [69   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cf5eb5de-5ddf-4df3-8b62-ed00544eae1f
+DEBUG 2016-10-05 22:57:14,519 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cf5eb5de-5ddf-4df3-8b62-ed00544eae1f
+WARN  2016-10-05 22:57:19,802 [56   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 22:57:20,957 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9fffb6a2-15d6-47c3-88a3-fba0a1bc1e57","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:57:20.9556767-05:00","Properties":{}}
+DEBUG 2016-10-05 22:57:20,997 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9fffb6a2-15d6-47c3-88a3-fba0a1bc1e57
+DEBUG 2016-10-05 22:57:24,344 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9fffb6a2-15d6-47c3-88a3-fba0a1bc1e57
+WARN  2016-10-05 22:57:28,574 [37   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 22:57:29,560 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"681ecf3a-3662-4590-9bff-20c26b04342b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T22:57:29.5600839-05:00","Properties":{}}
+DEBUG 2016-10-05 22:57:29,624 [64   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 681ecf3a-3662-4590-9bff-20c26b04342b
+DEBUG 2016-10-05 23:35:05,498 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 681ecf3a-3662-4590-9bff-20c26b04342b
+WARN  2016-10-05 23:35:10,002 [73   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-05 23:35:11,124 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c7996b25-4463-4f4d-bcf9-ff3ba1d5aa3c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-05T23:35:11.1228906-05:00","Properties":{}}
+DEBUG 2016-10-05 23:35:11,179 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c7996b25-4463-4f4d-bcf9-ff3ba1d5aa3c
+DEBUG 2016-10-05 23:35:58,965 [16   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-10-05 23:35:58,984 [16   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-05 23:35:59,415 [16   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-05 23:35:59,415 [16   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-10-05 23:36:10,689 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-05 23:36:11,831 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-05 23:36:11,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:11,865 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-05 23:36:13,087 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 23:36:13,087 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 23:36:13,087 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 23:36:13,087 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-05 23:36:13,964 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-05 23:36:14,948 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-05 23:36:14,975 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-05 23:36:14,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-05 23:36:14,979 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-05 23:36:14,980 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-05 23:36:15,166 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-05 23:36:15,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-05 23:36:15,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-05 23:36:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-05 23:36:18,814 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-05 23:36:18,816 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-05 23:36:18,818 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-05 23:36:18,820 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-10-06 00:05:09,137 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-10-06 00:05:09,174 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-10-06 00:05:09,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Web.GlobalERPWebModule, GlobalERP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPDataModule, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPCoreModule, GlobalERP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.GlobalERPApplicationModule, GlobalERP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GlobalERP.Api.GlobalERPWebApiModule, GlobalERP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:09,196 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-10-06 00:05:10,046 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-06 00:05:10,046 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-06 00:05:10,046 [1    ] o.Configuration.LanguageManagementConfig - Converted GlobalERP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-06 00:05:10,046 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-10-06 00:05:10,894 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: GlobalERP.EntityFramework.GlobalERPDbContext, GlobalERP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-10-06 00:05:14,930 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-10-06 00:05:14,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-10-06 00:05:15,002 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-10-06 00:05:15,005 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GlobalERP
+DEBUG 2016-10-06 00:05:15,006 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-10-06 00:05:15,137 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-10-06 00:05:15,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2016-10-06 00:05:15,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-10-06 00:05:15,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-10-06 00:05:15,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-10-06 00:05:15,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.CreateUserInput
+DEBUG 2016-10-06 00:05:15,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.Users.Dto.UserListDto
+DEBUG 2016-10-06 00:05:15,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-10-06 00:05:15,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GlobalERP.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-10-06 00:05:18,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-10-06 00:05:18,463 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-10-06 00:05:18,465 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-10-06 00:05:18,466 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'GlobalERP.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-10-06 00:05:20,582 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f9020587-c331-4d60-94e9-8c4de96270d6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:05:20.5540097-05:00","Properties":{}}
+DEBUG 2016-10-06 00:06:29,979 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"64ec065f-6c5d-4de5-b6f5-a1eeb89fe78f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:06:29.9794795-05:00","Properties":{}}
+DEBUG 2016-10-06 00:06:30,206 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 64ec065f-6c5d-4de5-b6f5-a1eeb89fe78f
+WARN  2016-10-06 00:07:01,358 [11   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-06 00:07:06,144 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 64ec065f-6c5d-4de5-b6f5-a1eeb89fe78f
+DEBUG 2016-10-06 00:07:45,124 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1252b1a5-8294-4607-b68e-957bb8a55554","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:07:45.123202-05:00","Properties":{}}
+DEBUG 2016-10-06 00:07:45,149 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1252b1a5-8294-4607-b68e-957bb8a55554
+WARN  2016-10-06 00:07:45,163 [22   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-06 00:07:50,900 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1252b1a5-8294-4607-b68e-957bb8a55554
+DEBUG 2016-10-06 00:07:53,388 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1070520d-6824-4371-a18f-00ca257fba23","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:07:53.3876322-05:00","Properties":{}}
+DEBUG 2016-10-06 00:07:53,398 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1070520d-6824-4371-a18f-00ca257fba23
+WARN  2016-10-06 00:07:53,948 [26   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+ERROR 2016-10-06 00:12:18,141 [21   ] GlobalERP.Web.Controllers.HomeController - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   en System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   en System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   en System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   en System.Data.Entity.Internal.InternalContext.SaveChanges()
+   en System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   en Abp.EntityFramework.AbpDbContext.SaveChanges() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\AbpDbContext.cs:línea 196
+   en Abp.EntityFramework.Uow.EfUnitOfWork.SaveChangesInDbContext(DbContext dbContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:línea 159
+   en Castle.Core.Internal.CollectionExtensions.ForEach[T](IEnumerable`1 items, Action`1 action)
+   en Abp.EntityFramework.Uow.EfUnitOfWork.SaveChanges() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:línea 76
+   en Abp.EntityFramework.Uow.EfUnitOfWork.CompleteUow() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Uow\EfUnitOfWork.cs:línea 94
+   en Abp.Domain.Uow.UnitOfWorkBase.Complete() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:línea 247
+   en Abp.Auditing.AuditingHelper.Save(AuditInfo auditInfo) en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Auditing\AuditingHelper.cs:línea 126
+   en Abp.Web.Mvc.Auditing.AbpMvcAuditFilter.OnActionExecuted(ActionExecutedContext filterContext) en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Auditing\AbpMvcAuditFilter.cs:línea 59
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-10-06 00:12:18,526 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1070520d-6824-4371-a18f-00ca257fba23
+WARN  2016-10-06 00:13:39,866 [43   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!
+DEBUG 2016-10-06 00:13:40,495 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0c1fbaad-0126-45c9-8a48-e052c976974d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:13:40.4948313-05:00","Properties":{}}
+DEBUG 2016-10-06 00:13:40,508 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0c1fbaad-0126-45c9-8a48-e052c976974d
+DEBUG 2016-10-06 00:14:18,077 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0c1fbaad-0126-45c9-8a48-e052c976974d
+DEBUG 2016-10-06 00:14:25,583 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"acfe193b-d99c-49c7-a78a-3f5bae4cc52f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:14:25.5814206-05:00","Properties":{}}
+DEBUG 2016-10-06 00:14:25,640 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: acfe193b-d99c-49c7-a78a-3f5bae4cc52f
+DEBUG 2016-10-06 00:14:38,410 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: acfe193b-d99c-49c7-a78a-3f5bae4cc52f
+DEBUG 2016-10-06 00:15:32,817 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1e0969ec-675a-47f9-893f-647ac0e5c3ab","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:15:32.8168002-05:00","Properties":{}}
+DEBUG 2016-10-06 00:15:32,827 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1e0969ec-675a-47f9-893f-647ac0e5c3ab
+DEBUG 2016-10-06 00:17:43,975 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f9020587-c331-4d60-94e9-8c4de96270d6
+DEBUG 2016-10-06 00:17:44,071 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"1e0969ec-675a-47f9-893f-647ac0e5c3ab","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:15:32.8168002-05:00","Properties":{}}
+ERROR 2016-10-06 00:17:44,078 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - Can not find IP address of the client! connectionId: f9020587-c331-4d60-94e9-8c4de96270d6
+ERROR 2016-10-06 00:17:44,078 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - El valor no está dentro del intervalo esperado.
+System.ArgumentException: El valor no está dentro del intervalo esperado.
+   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Web.Hosting.IIS7WorkerRequest.GetServerVariableInternal(String name)
+   en System.Web.Hosting.IIS7WorkerRequest.GetServerVariable(String name)
+   en System.Web.HttpRequest.FillInServerVariablesCollection()
+   en System.Web.HttpServerVarsCollection.Populate()
+   en System.Web.HttpServerVarsCollection.Get(String name)
+   en Microsoft.Owin.Host.SystemWeb.OwinCallContext.Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.IPropertySource.GetServerRemoteIpAddress()
+   en Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.get_ServerRemoteIpAddress()
+   en Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.PropertiesTryGetValue(String key, Object& value)
+   en Microsoft.Owin.Host.SystemWeb.CallEnvironment.AspNetDictionary.System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item(String key)
+   en Abp.Web.SignalR.Hubs.AbpCommonHub.GetIpAddressOfClient() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.SignalR\Web\SignalR\Hubs\AbpCommonHub.cs:línea 102
+DEBUG 2016-10-06 00:17:44,086 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"33cdeef5-1a19-44bf-b829-0177871b39e4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:17:44.085354-05:00","Properties":{}}
+DEBUG 2016-10-06 00:17:44,100 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"f9020587-c331-4d60-94e9-8c4de96270d6","IpAddress":"","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:17:44.1003634-05:00","Properties":{}}
+DEBUG 2016-10-06 00:17:44,105 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5857b55d-ea54-48dd-a9a7-612cd2fa6ba9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:17:44.1043661-05:00","Properties":{}}
+DEBUG 2016-10-06 00:18:02,509 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5857b55d-ea54-48dd-a9a7-612cd2fa6ba9
+DEBUG 2016-10-06 00:18:10,638 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"63356c90-db25-4192-b599-ab4c29e364b9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:18:10.6370896-05:00","Properties":{}}
+DEBUG 2016-10-06 00:18:14,000 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 63356c90-db25-4192-b599-ab4c29e364b9
+DEBUG 2016-10-06 00:19:38,612 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 63356c90-db25-4192-b599-ab4c29e364b9
+DEBUG 2016-10-06 00:19:43,132 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc7922f8-34c5-47a7-acce-4224346da6a1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:19:43.1314821-05:00","Properties":{}}
+ERROR 2016-10-06 00:20:29,271 [45   ] nHandling.AbpApiExceptionFilterAttribute - The underlying provider failed on Open.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass4.<<ExecuteAsync>b__3>d__6.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Data.Entity.Core.EntityClient.EntityConnection.<OpenAsync>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Core.Objects.ObjectContext.<EnsureConnectionAsync>d__9.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   en System.Data.Entity.Core.Objects.ObjectQuery`1.<GetResultsAsync>d__e.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Utilities.TaskExtensions.CultureAwaiter`1.GetResult()
+   en System.Data.Entity.Internal.LazyAsyncEnumerator`1.<FirstMoveNextAsync>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<FirstOrDefaultAsync>d__25`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.EntityFramework.Repositories.EfRepositoryBase`3.<FirstOrDefaultAsync>d__11.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.EntityFramework\EntityFramework\Repositories\EfRepositoryBaseOfTEntityAndTPrimaryKey.cs:línea 0
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:línea 120
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.Users.AbpUserStore`2.<FindByIdAsync>d__17.MoveNext() en D:\Halil\GitHub\module-zero\src\Abp.Zero\Authorization\Users\AbpUserStore.cs:línea 0
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:línea 120
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en GlobalERP.Sessions.SessionAppService.<GetCurrentLoginInformations>d__0.MoveNext() en C:\Users\Teo\Downloads\GlobalERP\GlobalERP.Application\Sessions\SessionAppService.cs:línea 15
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:línea 120
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:línea 40
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:línea 40
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:línea 30
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:línea 59
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() en D:\Halil\GitHub\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:línea 55
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2016-10-06 00:20:29,586 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc7922f8-34c5-47a7-acce-4224346da6a1
+DEBUG 2016-10-06 00:20:29,764 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc7922f8-34c5-47a7-acce-4224346da6a1
+DEBUG 2016-10-06 00:20:33,496 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"65171764-68dd-4118-98c1-d87a73ad8f23","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:20:33.4957219-05:00","Properties":{}}
+DEBUG 2016-10-06 00:20:33,578 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 65171764-68dd-4118-98c1-d87a73ad8f23
+DEBUG 2016-10-06 00:22:31,690 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 65171764-68dd-4118-98c1-d87a73ad8f23
+DEBUG 2016-10-06 00:22:54,595 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"acde8b84-b8d8-4cc6-8cf5-639102337900","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:22:54.5941065-05:00","Properties":{}}
+DEBUG 2016-10-06 00:22:54,612 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: acde8b84-b8d8-4cc6-8cf5-639102337900
+DEBUG 2016-10-06 00:24:24,382 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: acde8b84-b8d8-4cc6-8cf5-639102337900
+DEBUG 2016-10-06 00:24:34,712 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"745fe5c3-324d-46fa-a371-8821459a3214","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:24:34.7119599-05:00","Properties":{}}
+DEBUG 2016-10-06 00:24:34,740 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 745fe5c3-324d-46fa-a371-8821459a3214
+DEBUG 2016-10-06 00:25:48,799 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 745fe5c3-324d-46fa-a371-8821459a3214
+DEBUG 2016-10-06 00:25:51,297 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b5754f81-085e-44a3-9b87-55eca3448396","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:25:51.29679-05:00","Properties":{}}
+DEBUG 2016-10-06 00:25:51,308 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b5754f81-085e-44a3-9b87-55eca3448396
+ERROR 2016-10-06 00:25:52,772 [21   ] Web.Mvc.Controllers.AbpAppViewController - c:\Users\Teo\Downloads\GlobalERP\GlobalERP.Web\App\Main\views\users\detail.cshtml(10): error CS0103: The name 'AbpUserBase' does not exist in the current context
+System.Web.HttpCompileException (0x80004005): c:\Users\Teo\Downloads\GlobalERP\GlobalERP.Web\App\Main\views\users\detail.cshtml(10): error CS0103: The name 'AbpUserBase' does not exist in the current context
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-10-06 00:26:51,908 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b5754f81-085e-44a3-9b87-55eca3448396
+DEBUG 2016-10-06 00:26:54,541 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8a73c21f-9ff3-4a24-8506-fee65a138e3f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-10-06T00:26:54.5403921-05:00","Properties":{}}
+DEBUG 2016-10-06 00:26:54,571 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8a73c21f-9ff3-4a24-8506-fee65a138e3f
+WARN  2016-10-06 00:27:29,670 [21   ] Abp.Logging.LogHelper                    - Can not find 'Options' in localization source 'GlobalERP'!

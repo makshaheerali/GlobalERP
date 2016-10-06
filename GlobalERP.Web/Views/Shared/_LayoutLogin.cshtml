@@ -1,0 +1,117 @@
+﻿@using System.Threading
+@using System.Web.Optimization
+@using Abp.Timing
+@using Abp.Web.Mvc.Extensions
+@{
+    SetAntiForgeryCookie();
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="~/favicon.ico">
+
+    <title>mQueue</title>
+
+    @Html.IncludeStyle("~/Content/themes/base/all.css")
+    @Html.IncludeStyle("~/Content/bootstrap-cosmo.min.css")
+    @Html.IncludeStyle("~/Content/font-awesome.min.css")
+    @Html.IncludeStyle("~/Content/toastr.min.css")
+    @Html.IncludeStyle("~/Content/flags/famfamfam-flags.css")
+    @Html.IncludeStyle("~/Scripts/sweetalert/sweet-alert.css")
+    @Html.IncludeStyle("~/Content/login.css")
+    @RenderSection("Styles", false)
+ 
+
+    <!-- View specific styles -->
+ 
+
+    <script type="text/javascript">
+        //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
+        var abp = abp || {}; abp.appPath = '@ApplicationPath';
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="@Url.Content("~/Scripts/others/html5shiv.js")"></script>
+        <script src="@Url.Content("~/Scripts/others/respond.min.js")"></script>
+    <![endif]-->
+
+    @Html.IncludeScript("~/Abp/Framework/scripts/utils/ie10fix.js")
+    @Html.IncludeScript("~/Scripts/modernizr-2.8.3.js")
+
+    @Html.IncludeScript("~/Scripts/json2.min.js")
+    @Html.IncludeScript("~/Scripts/jquery-2.2.0.min.js")
+    @Html.IncludeScript("~/Scripts/jquery-ui-1.11.4.min.js")
+    @Html.IncludeScript("~/Scripts/bootstrap.min.js")
+
+    @Html.IncludeScript("~/Scripts/jquery.validate.min.js")
+    @Html.IncludeScript("~/Scripts/jquery.blockUI.js")
+    @Html.IncludeScript("~/Scripts/toastr.min.js")
+    @Html.IncludeScript("~/Scripts/others/spinjs/spin.js")
+    @Html.IncludeScript("~/Scripts/others/spinjs/jquery.spin.js")
+    @Html.IncludeScript("~/Scripts/sweetalert/sweet-alert.min.js")
+
+    @Html.IncludeScript("~/Abp/Framework/scripts/abp.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.jquery.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.toastr.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.blockUI.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.spin.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.sweet-alert.js")
+    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
+
+    @RenderSection("Scripts", false)
+</head>
+<body class="page-md login">
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <div class="logo">
+        <label class="labellogo">
+            Global 
+        </label>
+       <label class="labellogoname">ERP</label>       
+    </div>
+     <div class="content">
+        @RenderBody()
+    </div>
+    <div class="language-switch-area">
+        <a href="/AbpLocalization/ChangeCulture?cultureName=es&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="English"><i class="famfamfam-flag-es"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=en&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="English"><i class="famfamfam-flag-gb"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=de&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="German"><i class="famfamfam-flag-de"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=it&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="Italiano"><i class="famfamfam-flag-it"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=pt-BR&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="Portuguese"><i class="famfamfam-flag-br"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=tr&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="Türkçe"><i class="famfamfam-flag-tr"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=ru&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="Русский"><i class="famfamfam-flag-ru"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=ar&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="العربية"><i class="famfamfam-flag-sa"></i></span>
+        </a>
+        <a href="/AbpLocalization/ChangeCulture?cultureName=zh-CN&amp;returnUrl=~/Account/Login">
+            <span class="language-icon " title="简体中文"><i class="famfamfam-flag-cn"></i></span>
+        </a>
+    </div>
+    <div class="copyright">
+        <a href="http://tchambil.blogspot.pe/"> 2016 © tchambil</a>       
+    </div> 
+</body>
+</html>

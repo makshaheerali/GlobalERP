@@ -1,0 +1,17 @@
+Tools/
+Tests/
+packages/
+GlobalERP.Web/obj/Release/Package/PackageTmp/Scripts/i18n/angular-locale_dav.js
+GlobalERP.Web/obj/Release/Package/PackageTmp/Scripts/i18n/angular-locale_da-gl.js
+GlobalERP.Web/obj/Release/Package/
+GlobalERP.Web/Scripts/
+GlobalERP.Web/bin/
+GlobalERP.WebApi/bin/
+GlobalERP.WebApi/obj/Release/
+GlobalERP.WebApi/obj/
+GlobalERP.Web/obj/
+GlobalERP.Application/bin/Release/
+GlobalERP.Core/bin/Debug/
+GlobalERP.Core/bin/
+GlobalERP.Application/bin/
+GlobalERP.EntityFramework/bin/
