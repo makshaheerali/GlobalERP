@@ -15,14 +15,7 @@ namespace GlobalERP.Web
         public override void SetNavigation(INavigationProviderContext context)
         {
             context.Manager.MainMenu
-                .AddItem(
-                    new MenuItemDefinition(
-                        "Home",
-                        new LocalizableString("HomePage", GlobalERPConsts.LocalizationSourceName),
-                        url: "#/",
-                        icon: "fa fa-home"
-                        )
-                ).AddItem(
+               .AddItem(
                     new MenuItemDefinition(
                         "Tenants",
                         L("Tenants"),
@@ -40,11 +33,34 @@ namespace GlobalERP.Web
                         )
                 ).AddItem(
                     new MenuItemDefinition(
+                        "Vehicle",
+                        L("Vehicle"),
+                        icon: "fa fa-car"
+                        ).AddItem(new MenuItemDefinition(
+                             "Register",
+                             L("Register"),
+                               url: "vehicle/create",
+                             icon: "fa fa-car",
+                             requiresAuthentication: true
+                            )
+                        ).AddItem(new MenuItemDefinition(
+                             "Index",
+                             L("Index"),
+                               url: "vehicle/index",
+                             icon: "fa fa-car",
+                             requiresAuthentication: true
+                         ))).AddItem(
+                    new MenuItemDefinition(
                         "About",
                         new LocalizableString("About", GlobalERPConsts.LocalizationSourceName),
-                        url: "#/about",
+                 
                         icon: "fa fa-info"
-                        )
+                        ).AddItem(new MenuItemDefinition(
+                             "Create",
+                             L("Create"),
+                               url: "/",
+                             icon: "fa fa-road" 
+                            ))
                 );
         }
 
