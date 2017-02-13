@@ -25,6 +25,7 @@
             };
 
             getUsers();
+            abp.notify.info(App.localize('SavedSuccessfully'));
         }
     ]);
 })();

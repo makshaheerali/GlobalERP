@@ -19,14 +19,15 @@
                         <td>{{user.fullName}}</td>
                         <td>{{user.emailAddress}}</td>
                         <td>{{user.isActive ? '@L("Yes")' : '@L("No")'}}</td>
+                         
                         <td class="text-center">
                         <a ng-href="#/users/{{user.id}}" class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="top" title="Editar">
     <span class="glyphicon glyphicon-edit"></span>
-</a>                    <div ng-if="{{user.IsActive}}">
+</a>                    @*<div ng-if="{{user.IsActive}}">
                             <a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar" ng-click="vm.openUserCreationModal()">
                                 <span class="glyphicon glyphicon-trash"></span>
                             </a>
-                            </div>                             
+                            </div>*@                             
                                 <a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar">
                                     <span class="glyphicon glyphicon-trash"></span>
                                 </a>

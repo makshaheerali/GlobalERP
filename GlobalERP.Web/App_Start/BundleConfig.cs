@@ -12,8 +12,6 @@ namespace GlobalERP.Web
        .Include("~/assets/global/plugins/simple-line-icons/simple-line-icons.min.css", new CssRewriteUrlTransform())
        .Include("~/assets/global/plugins/bootstrap/css/bootstrap.min.css", new CssRewriteUrlTransform())
        .Include("~/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css", new CssRewriteUrlTransform())
-       .Include("~/Content/toastr.min.css", new CssRewriteUrlTransform())
-       .Include("~/Scripts/sweetalert/sweet-alert.css", new CssRewriteUrlTransform())
        );
             // PAGE LEVEL PLUGINS 
             bundles.Add(new StyleBundle("~/Bundles/vendor/PageLevelPlugin")
@@ -24,7 +22,7 @@ namespace GlobalERP.Web
                 .Include("~/assets/global/plugins/select2/css/select2.min.css", new CssRewriteUrlTransform())
                 .Include("~/assets/global/plugins/select2/css/select2-bootstrap.min.css", new CssRewriteUrlTransform())
                 .Include("~/assets/global/plugins/datatables/datatables.min.css", new CssRewriteUrlTransform())
-                       .Include("~/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css", new CssRewriteUrlTransform())
+                .Include("~/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css", new CssRewriteUrlTransform())
             );
             //THEME GLOBAL STYLES 
             bundles.Add(new StyleBundle("~/Bundles/vendor/GlobalStyles")
